@@ -180,6 +180,7 @@ h4{
 	.info, p{
 		padding-left: 10%;
 		padding-right:10%;
+		text-align: justify;
 	}
 	.sobre{
 		height: 100%;
