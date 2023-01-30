@@ -175,5 +175,8 @@ h4{
 	#name{
 		display: none;
 	}
+	.modal-dialog{
+		max-width: 100% !important;
+	}
 }
 
