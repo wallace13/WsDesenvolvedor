@@ -179,4 +179,6 @@ h4{
 		max-width: 100% !important;
 	}
 }
-
+.carousel-control-next, .carousel-control-prev{
+	filter: invert(100%) !important;
+}
