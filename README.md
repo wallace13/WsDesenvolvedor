@@ -6,5 +6,4 @@
 <br />
 <br />
 
-## ✔️ Acesse Agora:
-Clique [aqui](https://wallace13.github.io/WsDesenvolvedor/).
+## ✔️ Acesse Agora: [Clique aqui](https://wallace13.github.io/WsDesenvolvedor/).
