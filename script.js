@@ -4,6 +4,7 @@ const imagesDugsmash = [{nome: `images/dubsmash/startGame.jpg`, descricao: 'Tela
 const imagesSimcov = [{nome: `images/simcov/AbaPrincipal.jpg`, descricao: 'Tela Principal.'},{nome: `images/simcov/AbaCovid.jpg`,descricao: 'Central da Covid.'},{nome: `images/simcov/AbaLogin.jpg`, descricao: 'Tela de Login.'},{nome: `images/simcov/AbaEntrada.jpg`, descricao: 'Tela de Registrar Entrada.'},{nome: `images/simcov/AbaSaida.jpg`, descricao: 'Tela de Registrar Saída.'},{nome: `images/simcov/AbaPaciente.jpg`, descricao: 'Tela de Cadastrar Paciente.'},];
 const imagesSicopes = [{nome: `images/sicopes/telaPrincipal.jpg`, descricao: 'Tela Principal.'},{nome: `images/sicopes/telaVotacao.jpg`,descricao: 'Tela de Votação.'},{nome: `images/sicopes/telaLogin.jpg`, descricao: 'Tela de Login.'},{nome: `images/sicopes/menuPrincipal.jpg`, descricao: 'Menu Principal.'},{nome: `images/sicopes/andamentoVotacao.jpg`,descricao: 'Andamento da Votação.'},{nome: `images/sicopes/balancoAnual.jpg`, descricao: 'Tela do Balanço Anual.'},];
 const modal = {estop:{titulo: "ESTOP - Sistema de Gerenciamento de Estacionamento.",imagens: imagesEstop,link: 'https://wallace13.github.io/estop/',botao: 'Saiba Mais',},dugsmash:{titulo: "Dub Smash - Game de Matar Moscas.",imagens: imagesDugsmash,link: 'https://wallace13.github.io/dubSmash/',botao: 'Jogue Agora',},simcov:{titulo: "SIMCOV - Sistema Integrado de Monitoramento dos Casos de Covid.",imagens: imagesSimcov,link: '0',botao: '0',},sicopes:{titulo: "SICOPES - Sistema Integrado de Controle e Pesquisa de Satisfação.",imagens: imagesSicopes,link: '0',botao: '0',},};
+var modalClick = document.getElementById('modal');
 function criaSlide($this){
 //cria a primeira div do carrossel
 let div = document.createElement('div');
@@ -113,3 +114,4 @@ if(document.getElementById("carouselExampleControls")){if (slide.parentNode) {sl
 const botao = document.querySelector(`#rodape`);
 if(document.getElementById("rodape")){if (botao.parentNode) {botao.parentNode.removeChild(botao);}}
 }
+modalClick.addEventListener('click', function(e) {if (e.target == this) limpaModal();});
