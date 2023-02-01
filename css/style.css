@@ -113,9 +113,8 @@ ul{
 	height: 100%;
 }
 .projects li img:hover {
-	opacity: 0.8;
 	cursor: pointer;
-	filter: grayscale(30%);
+	filter: drop-shadow(5px 5px 10px black); 
 }
 /*Footer*/
 .contact{
