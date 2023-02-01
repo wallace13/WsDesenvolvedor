@@ -170,7 +170,9 @@ h4{
 		height: 100%;
 		width:100%;
 	}
-	
+	.perfil{
+		width: 0;
+	}
 	.perfil img{
 		display: none;
 	}
