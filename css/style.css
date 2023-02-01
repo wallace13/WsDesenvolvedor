@@ -137,13 +137,16 @@ h4{
     align-items: center;
 }
 .buttons a:hover{
-	opacity: 0.8;
-	background-color: rgb(0, 255, 149);
 	cursor: pointer;
 }
-.icon-medium{
-    width: 50px;
+.buttons a #icon-medium:hover{
+	color:rgb(0, 255, 149);
+}
+#icon-medium{
     margin: 5px;
+	font-size:48px;
+	color:white;
+	padding:10px;
 }
 @media (max-device-width: 900px) {
 	#title-project{
