@@ -78,6 +78,27 @@
 }
 
 /*Formatação do Projeto*/
+.owl-carousel .owl-item {
+	margin-right: 0 !important;
+}
+.owl-stage {
+	margin: 0 !important;
+    padding: 0 !important;
+}
+.owl-carousel .owl-theme {
+    margin: 0 !important;
+    background: black;
+}
+.owl-dots {
+	display: none;
+}
+.carrosel{
+	margin: 0;
+}
+.owl-carousel .owl-theme{
+	margin: 0;
+	background: black;
+}
 .project{
 	background-color:#ffffff;
 	position: relative;
@@ -107,14 +128,6 @@ ul{
 	float: left;
 	position: relative;
 	list-style: none;
-}
-.projects li img{
-	width: 100%;
-	height: 100%;
-}
-.projects li img:hover {
-	cursor: pointer;
-	filter: drop-shadow(5px 5px 10px black); 
 }
 /*Footer*/
 .contact{
