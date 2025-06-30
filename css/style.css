@@ -7,29 +7,28 @@
     margin: 0;
 	line-height: normal;
   }
-.fundo1{
+.main-backgrond-title{
     background-color: black;
     width: 100%;
 	z-index: 1;
 }
-.titulo { 
+.main-title { 
     color: white;
     font-size: 500px;
     height: 450px;
     text-align: center;
     width:800px;
     font-family: 'Belleza', sans-serif;
-    text-shadow: 0.05em 0.025em #9b9999, 0.1em 0.05em rgb(90 90 90);
     position: relative;
     margin-left: auto;
     margin-right: auto;
 }
-.fundo2{
+.main-backgrond-subtitle{
     background-color: white;
 	position:relative;
     width: 100%;
 }
-.subtitulo{
+.main-subtitle{
     font-size: 50px;
     padding-top: 25px;
     width:700px;
@@ -38,26 +37,26 @@
     margin-right: auto;
 }
 /*Sobre*/
-.sobre{
-	background-color: #ebe2d3;
+.about{
+	background-color: 	#000521;
 	height:100%;
 	width:100%;
 }
-.sobre-info{
+.more-info{
 	position: relative;
 	display: flex;
 }
-.perfil{
-	left: 0pt;
-	bottom: 0;
-	width: 700px;
+.profile {
+	max-width: 300px;
+	flex-shrink: 0; /* impede a imagem de encolher demais */
 }
-.perfil img{
-	height:100%;
-	width:100%;	
-	filter: drop-shadow(gray 5px 5px 5px);
+.profile img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
 }
 .info{
+	color: #cccccc;
 	padding-right:50px;
 	padding-left: 30px;
 	padding-top:25px;
@@ -100,7 +99,7 @@
 	background: black;
 }
 .project{
-	background-color:#ffffff;
+	background-color:#000521;
 	position: relative;
 	width:100%;
 	height:100%;
@@ -131,7 +130,7 @@ ul{
 }
 /*Footer*/
 .contact{
-	background-color: black;
+	background-color: #000521;
 	padding-top:20px;
 	color:white;
 	position: absolute;
@@ -152,7 +151,7 @@ h4{
 	cursor: pointer;
 }
 .buttons a #icon-medium:hover{
-	color:rgb(0, 255, 149);
+	color: rgb(0, 255, 149);;
 }
 #icon-medium{
     margin: 5px;
@@ -179,14 +178,14 @@ h4{
 		text-align: justify;
 		padding-bottom: 50px;
 	}
-	.sobre{
+	.about{
 		height: 100%;
 		width:100%;
 	}
-	.perfil{
+	.profile{
 		width: 0;
 	}
-	.perfil img{
+	.profile img{
 		display: none;
 	}
 	#name{

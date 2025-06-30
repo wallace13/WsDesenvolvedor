@@ -14,52 +14,76 @@
 
 </head>
 <body>
+   <div id="language-selector"
+     style="position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 9999;
+            font-size: 14px;
+            color: #fff;
+            background: rgba(0, 0, 0, 0.6);  /* leve fundo escuro */
+            padding: 6px 12px;
+            border-bottom-right-radius: 6px;">
+        <span id="lang-en" style="cursor: pointer; margin-right: 8px;">EN</span>
+        <span id="lang-pt" style="cursor: pointer;">PT</span>
+    </div>
     <header>
-        <div class="fundo1">
-            <div class="titulo">WS</div>
+        <div class="main-backgrond-title">
+            <div class="main-title">WS</div>
         </div>
-        <div class="fundo2">
-            <div class="subtitulo">Desenvolvedor</div>
+        <div class="main-backgrond-subtitle">
+            <div class="main-subtitle" data-lang-en="Developer" data-lang-pt="Desenvolvedor">Developer</div>
         </div>
     </header>
-	<section class="sobre">
-		<h1 class = "title" >Minha História com a Informática</h1>
-        <div class="sobre-info">
-            <div class="perfil">
-                <img src = "images/eu.png" alt = "wallace">
+	<section class="about">
+		<h1 class = "title" data-lang-en="My Journey as a Software Developer" data-lang-pt="Minha história como desenvolvedor de software"></h1>
+        <div class="more-info">
+            <div class="profile">
+                <img src = "images/profile.png" alt = "wallace">
             </div>
             <div class="info">
-                    <p>
-                        Meu nome é Wallace Sales Gomes, sou um programador Full Stack apaixonado por desenvolvimento de software e minha história com a informática 
-                        teve inicio no ensino médio. Foi nesta época, onde realizei 
-                        meus primeiros cursos de informática.</br></br>
+                <p  data-lang-pt>
+                    Meu nome é Wallace Sales Gomes e sou um programador Full Stack apaixonado pelo desenvolvimento de software. 
+                    Minha trajetória na informática começou no ensino médio, quando fiz meus primeiros cursos na área.</br></br>
 
-                        Com o termino do ensino médio, vieram as obrigações militares e foi por meio
-                        do militarismo, que pude me aperfeiçoar em informática, realizando assim curso técnico
-                        de informática, no senai Maracanã. Foi por meio dele, onde eu tive minha primeira 
-                        experiência como programador, trabalhando com linguagem Java para o desenvolvimento
-                        do Sistema de Gerenciamento de Estacionamento (E-Stop).</br></br>
+                    Após concluir o ensino médio, cumpri minhas obrigações militares. Foi durante esse período que tive a oportunidade 
+                    de me especializar em informática, realizando um curso técnico no SENAI Maracanã. Foi nessa fase que tive minha primeira 
+                    experiência como programador, trabalhando com Java no desenvolvimento do Sistema de Gerenciamento de Estacionamento (E-Stop).</br></br>
 
-                        Com o fim do curso técnico, realizei mais alguns cursos profissionalizantes e com o insentivo 
-                        de amigos, comecei à cursar faculdade de Análise de Sistemas na Unigranrio. Nesta Faculdade,
-                        eu me apronfundei ainda mais em programação e tive à oportunidade, de desenvolver diversos
-                        projetos voltados para a área, sendo um deles: o Sistema Integrado de 
-                        Monitoramento dos Casos de Covid(SIMCOV).</br></br>
-                        
-                        Após concluir a faculdade, decidi colocar meus conhecimentos em prática desenvolvendo um sistema de 
-                        pesquisa de satisfação para o local onde trabalhava. Esse projeto me proporcionou uma grande 
-                        oportunidade: mudar de setor e ingressar como auxiliar de Desenvolvimento de Software na Marinha. 
-                        Nessa nova posição, estou focado em programar em PHP, utilizando o framework Laravel e Angular.</br></br>
-                    </p>
+                    Depois do curso técnico, continuei me aprimorando com outros cursos profissionalizantes. Com o incentivo de amigos, ingressei na 
+                    faculdade de Análise de Sistemas na Unigranrio. Durante a graduação, aprofundei meus conhecimentos em programação e desenvolvi diversos 
+                    projetos, incluindo o Sistema Integrado de Monitoramento dos Casos de Covid (SIMCOV).</br></br>
+                    
+                    Ao concluir a faculdade, decidi aplicar meus conhecimentos desenvolvendo um sistema de pesquisa de satisfação para o local onde trabalhava. 
+                    Esse projeto abriu portas para que eu mudasse de setor e começasse minha carreira como auxiliar de Desenvolvimento de Software na Marinha.</br></br>
+
+                    Em 2023, encerrei meu tempo como militar e desde então sigo atuando na área de desenvolvimento de software, focando em projetos com 
+                    linguagens Java e PHP, utilizando Laravel e Angular. Além disso, tenho me dedicado à melhoria contínua de software, com o Sonar como 
+                    grande aliado.</br></br>
+                </p>
+                <p  data-lang-en style="display: none;">
+                    My name is Wallace Sales Gomes, and I am a passionate Full Stack developer dedicated to software development. 
+                    My journey into computing began in high school, where I took my first computer courses.</br></br>
+
+                    After finishing high school, I fulfilled my military obligations. It was during this time that I had the opportunity to specialize 
+                    in IT by completing a technical course at SENAI Maracanã. This period also marked my first experience as a programmer, working with 
+                    Java to develop the Parking Management System (E-Stop).</br></br>
+
+                    Following the technical course, I continued to enhance my skills through additional professional courses. Encouraged by friends, 
+                    I enrolled in the Systems Analysis degree program at Unigranrio. During college, I deepened my programming knowledge and developed several 
+                    projects, including the Integrated Covid Case Monitoring System (SIMCOV).</br></br>
+                    
+                    After graduating, I decided to put my skills into practice by developing a satisfaction survey system for my workplace. This project gave 
+                    me a great opportunity to switch departments and join the Navy as a Software Development Assistant.</br></br>
+
+                    In 2023, my military service came to an end, and since then I have continued working in software development, focusing on projects 
+                    using Java and PHP with Laravel and Angular. Additionally, I have been committed to continuous software improvement, leveraging Sonar 
+                    as a key tool.</br></br>
+                </p>
             </div>
         </div>
 	</section>
     <section class="project">
-        <ul>
-            <li id="title-project">
-                Projetos
-            </li>
-        </ul>
         <div class="carrosel">   
             <div class="owl-carousel owl-theme">
                 <div class="item">
@@ -114,7 +138,10 @@
         </div>
     </div>
 	<footer class="contact">
-		<h4 id="font_contact">Precisa de um Desenvolvedor? Entre em Contato:</h4>
+		<h4 id="font_contact"
+        data-lang-en="Looking for a Developer? Please Contact Me:" 
+        data-lang-pt="Precisa de um Desenvolvedor? Entre em Contato:"
+        >Looking for a Developer? Please Contact Me:</h4>
         <div class="buttons">
             <a href="https://www.instagram.com/wallace.sales/" target="_blank"><i class="fa fa-instagram" id="icon-medium"></i></a>
             <a href="https://www.linkedin.com/in/wallacesales13/" target="_blank"><i class="fa fa-linkedin-square" id="icon-medium"></i></a>
