@@ -165,7 +165,7 @@ function criaSlide($this) {
     let html =
       `
 <img class="d-block w-100 img-thumbnail" src="${image['nome']}" alt="erro">
-<figcaption class="figure-caption fs-4">${image['descricao']}</figcaption>
+<figcaption class="figure-caption fs-4">${image[descricao]}</figcaption>
 `;
     let div3 = document.createElement('div');
     div3.setAttribute('class', `carousel-item`);
