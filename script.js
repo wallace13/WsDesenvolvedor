@@ -10,6 +10,15 @@ const imagesEstop = [
   { nome: `images/estop/telaGerencia.jpg`, descricaoPt: 'Aba da Gerencia.', descricaoEn: 'Management Tab.' },
 ];
 
+const imagesDashboardEnglish = [
+  { nome: `images/dashboard/telaHome.jpg`, descricaoPt: 'Tela Principal.', descricaoEn: 'Main Screen.' },
+  { nome: `images/dashboard/telaSignificado.jpg`, descricaoPt: 'Modal Significado.', descricaoEn: 'Meaning Modal.' },
+  { nome: `images/dashboard/telaEditar.jpg`, descricaoPt: 'Modal Edição.', descricaoEn: 'Edit Modal.' },
+  { nome: `images/dashboard/telaTraducao.jpg`, descricaoPt: 'Tela Tradução.', descricaoEn: 'Translation Screen.' },
+  { nome: `images/dashboard/telaOpcoes.jpg`, descricaoPt: 'Telas Opções.', descricaoEn: 'Options Screens.' },
+  { nome: `images/dashboard/telaMobile.jpg`, descricaoPt: 'Multi Telas Mobile.', descricaoEn: 'Multiple Mobile Screens.' },
+];
+
 const imagesDugsmash = [
   { nome: `images/dubsmash/startGame.jpg`, descricaoPt: 'Tela Principal.', descricaoEn: 'Main Screen.' },
   { nome: `images/dubsmash/jogo.jpg`, descricaoPt: 'Tela do Game.', descricaoEn: 'Game Screen.' },
@@ -58,7 +67,8 @@ const modalPt = {
   simcov: { titulo: "SIMCOV - Sistema Integrado de Monitoramento dos Casos de Covid.", imagens: imagesSimcov, link: 'https://www.youtube.com/watch?v=NiRESwtdaxA', botao: 'Saiba Mais', },
   sicopes: { titulo: "SICOPES - Sistema Integrado de Controle e Pesquisa de Satisfação.", imagens: imagesSicopes, link: 'https://youtu.be/MxYyR1G4cOE', botao: 'Saiba Mais', },
   sinoweb: { titulo: "SINO WEB - Sistema online de toques de sino de Quartel/Igreja", imagens: imagesSinoWeb, link: 'https://wallace13.github.io/SinoWeb/', botao: 'Saiba Mais', },
-  reunioes: { titulo: "AG Reuniões - Sistema de Agendamento de Reuniões.", imagens: imagesReunioes, botao: 0, }
+  reunioes: { titulo: "AG Reuniões - Sistema de Agendamento de Reuniões.", imagens: imagesReunioes, botao: 0, },
+  dashboard: { titulo: "English Study Dashboard.", imagens: imagesDashboardEnglish, botao: 0, }
 };
 const modalEn = {
   estop: {
@@ -95,6 +105,11 @@ const modalEn = {
     titulo: "AG Meetings - Meeting Scheduling System.",
     imagens: imagesReunioes,
     botao: 0,
+  },
+  dashboard: { 
+    titulo: "English Study Dashboard.", 
+    imagens: imagesDashboardEnglish, 
+    botao: 0, 
   }
 };
 let modal = currentLang === 'pt' ? modalPt : modalEn;
