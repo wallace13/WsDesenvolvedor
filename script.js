@@ -52,6 +52,15 @@ const imagesSinoWeb = [
   { nome: `images/sinoweb/multiTela.jpg`, descricaoPt: 'Telas Mobile.', descricaoEn: 'Mobile Screens.' },
 ];
 
+const imagesSisa = [
+  { nome: `images/sisa/telaHome.jpg`, descricaoPt: 'Tela Home.', descricaoEn: 'Home Screen.' },
+  { nome: `images/sisa/telaEntrada.jpg`, descricaoPt: 'Tela Registrar Entrada.', descricaoEn: 'Register Entry Screen.' },
+  { nome: `images/sisa/telaProduto.jpg`, descricaoPt: 'Tela Produto.', descricaoEn: 'Product Screen.' },
+  { nome: `images/sisa/telaFornecimento.jpg`, descricaoPt: 'Tela Fornecedor.', descricaoEn: 'Supplier Screen.' },
+  { nome: `images/sisa/telaFornecedor.jpg`, descricaoPt: 'Tela Unidade de Fornecimento.', descricaoEn: 'Supply Unit Screen.' },
+  { nome: `images/sisa/telaLog.jpg`, descricaoPt: 'Tela Logs do Sistema.', descricaoEn: 'System Logs Screen.' },
+];
+
 const imagesReunioes = [
   { nome: `images/reunioes/telaInicial.jpg`, descricaoPt: 'Tela Principal.', descricaoEn: 'Main Screen.' },
   { nome: `images/reunioes/agendarReunioes.jpg`, descricaoPt: 'Tela Agendar Reunião.', descricaoEn: 'Schedule Meeting Screen.' },
@@ -68,7 +77,8 @@ const modalPt = {
   sicopes: { titulo: "SICOPES - Sistema Integrado de Controle e Pesquisa de Satisfação.", imagens: imagesSicopes, link: 'https://youtu.be/MxYyR1G4cOE', botao: 'Saiba Mais', },
   sinoweb: { titulo: "SINO WEB - Sistema online de toques de sino de Quartel/Igreja", imagens: imagesSinoWeb, link: 'https://wallace13.github.io/SinoWeb/', botao: 'Saiba Mais', },
   reunioes: { titulo: "AG Reuniões - Sistema de Agendamento de Reuniões.", imagens: imagesReunioes, botao: 0, },
-  dashboard: { titulo: "English Study Dashboard.", imagens: imagesDashboardEnglish, botao: 0, }
+  sisa: { titulo: "SISA - Sistema Integrado de Suprimentos e Armazenagem", imagens: imagesSisa, link: 'https://github.com/wallace13/PROJETO_ESTOQUE/', botao: 'Saiba Mais', },
+  dashboard: { titulo: "English Study Dashboard.", imagens: imagesDashboardEnglish, link: 'https://wallace13.github.io/EnglishDashboard/', botao: 'Teste Agora', }
 };
 const modalEn = {
   estop: {
@@ -106,10 +116,15 @@ const modalEn = {
     imagens: imagesReunioes,
     botao: 0,
   },
+  sisa: { 
+    titulo: "Integrated Supply and Storage System.", 
+    imagens: imagesSisa, 
+    botao: 'Learn More', 
+  },
   dashboard: { 
     titulo: "English Study Dashboard.", 
     imagens: imagesDashboardEnglish, 
-    botao: 0, 
+    botao: 'Test Now', 
   }
 };
 let modal = currentLang === 'pt' ? modalPt : modalEn;
