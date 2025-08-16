@@ -19,7 +19,7 @@ const imagesDashboardEnglish = [
   { nome: `images/dashboard/telaMobile.jpg`, descricaoPt: 'Multi Telas Mobile.', descricaoEn: 'Multiple Mobile Screens.' },
 ];
 
-const imagesDugsmash = [
+const imagesBugsmash = [
   { nome: `images/dubsmash/startGame.jpg`, descricaoPt: 'Tela Principal.', descricaoEn: 'Main Screen.' },
   { nome: `images/dubsmash/jogo.jpg`, descricaoPt: 'Tela do Game.', descricaoEn: 'Game Screen.' },
   { nome: `images/dubsmash/venceu.jpg`, descricaoPt: 'Tela do Vencedor.', descricaoEn: 'Winner Screen.' },
@@ -72,7 +72,7 @@ const imagesReunioes = [
 
 const modalPt = {
   estop: { titulo: "ESTOP - Sistema de Gerenciamento de Estacionamento.", imagens: imagesEstop, link: 'https://wallace13.github.io/estop/', botao: 'Saiba Mais', },
-  dugsmash: { titulo: "Dub Smash - Game de Matar Moscas.", imagens: imagesDugsmash, link: 'https://wallace13.github.io/dubSmash/', botao: 'Jogue Agora', },
+  bugsmash: { titulo: "Bug Smash - Game de Matar Moscas.", imagens: imagesBugsmash, link: 'https://wallace13.github.io/dubSmash/', botao: 'Jogue Agora', },
   simcov: { titulo: "SIMCOV - Sistema Integrado de Monitoramento dos Casos de Covid.", imagens: imagesSimcov, link: 'https://www.youtube.com/watch?v=NiRESwtdaxA', botao: 'Saiba Mais', },
   sicopes: { titulo: "SICOPES - Sistema Integrado de Controle e Pesquisa de Satisfação.", imagens: imagesSicopes, link: 'https://youtu.be/MxYyR1G4cOE', botao: 'Saiba Mais', },
   sinoweb: { titulo: "SINO WEB - Sistema online de toques de sino de Quartel/Igreja", imagens: imagesSinoWeb, link: 'https://wallace13.github.io/SinoWeb/', botao: 'Saiba Mais', },
@@ -87,9 +87,9 @@ const modalEn = {
     link: 'https://wallace13.github.io/estop/',
     botao: 'Learn More',
   },
-  dugsmash: {
-    titulo: "Dub Smash - Fly Swatting Game.",
-    imagens: imagesDugsmash,
+  bugsmash: {
+    titulo: "Bug Smash - Fly Swatting Game.",
+    imagens: imagesBugsmash,
     link: 'https://wallace13.github.io/dubSmash/',
     botao: 'Play Now',
   },
