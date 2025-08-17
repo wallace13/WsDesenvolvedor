@@ -72,9 +72,9 @@ const imagesReunioes = [
 
 const modalPt = {
   estop: { titulo: "ESTOP - Sistema de Gerenciamento de Estacionamento.", imagens: imagesEstop, link: 'https://wallace13.github.io/estop/', botao: 'Saiba Mais', },
-  bugsmash: { titulo: "Bug Smash - Game de Matar Moscas.", imagens: imagesBugsmash, link: 'https://wallace13.github.io/dubSmash/', botao: 'Jogue Agora', },
+  bugsmash: { titulo: "Bug Smash - Game de Matar Moscas.", imagens: imagesBugsmash, link: 'https://wallace13.github.io/bugSmash/', botao: 'Jogue Agora', },
   simcov: { titulo: "SIMCOV - Sistema Integrado de Monitoramento dos Casos de Covid.", imagens: imagesSimcov, link: 'https://www.youtube.com/watch?v=NiRESwtdaxA', botao: 'Saiba Mais', },
-  sicopes: { titulo: "SICOPES - Sistema Integrado de Controle e Pesquisa de Satisfação.", imagens: imagesSicopes, link: 'https://youtu.be/MxYyR1G4cOE', botao: 'Saiba Mais', },
+  sicopes: { titulo: "SICOPES - Sistema Integrado de Controle e Pesquisa de Satisfação.", imagens: imagesSicopes, botao: 0 },
   sinoweb: { titulo: "SINO WEB - Sistema online de toques de sino de Quartel/Igreja", imagens: imagesSinoWeb, link: 'https://wallace13.github.io/SinoWeb/', botao: 'Saiba Mais', },
   reunioes: { titulo: "AG Reuniões - Sistema de Agendamento de Reuniões.", imagens: imagesReunioes, botao: 0, },
   sisa: { titulo: "SISA - Sistema Integrado de Suprimentos e Armazenagem", imagens: imagesSisa, link: 'https://github.com/wallace13/PROJETO_ESTOQUE/', botao: 'Saiba Mais', },
@@ -90,7 +90,7 @@ const modalEn = {
   bugsmash: {
     titulo: "Bug Smash - Fly Swatting Game.",
     imagens: imagesBugsmash,
-    link: 'https://wallace13.github.io/dubSmash/',
+    link: 'https://wallace13.github.io/bugSmash/',
     botao: 'Play Now',
   },
   simcov: {
@@ -102,8 +102,7 @@ const modalEn = {
   sicopes: {
     titulo: "SICOPES - Integrated Satisfaction Control and Survey System.",
     imagens: imagesSicopes,
-    link: 'https://youtu.be/MxYyR1G4cOE',
-    botao: 'Learn More',
+    botao: 0,
   },
   sinoweb: {
     titulo: "SINO WEB - Online Bell Ringing System for Barracks/Churches.",
@@ -119,11 +118,13 @@ const modalEn = {
   sisa: { 
     titulo: "Integrated Supply and Storage System.", 
     imagens: imagesSisa, 
+    link: 'https://github.com/wallace13/PROJETO_ESTOQUE/',
     botao: 'Learn More', 
   },
   dashboard: { 
     titulo: "English Study Dashboard.", 
     imagens: imagesDashboardEnglish, 
+    link: 'https://wallace13.github.io/EnglishDashboard/',
     botao: 'Test Now', 
   }
 };
